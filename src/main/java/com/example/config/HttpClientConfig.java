@@ -4,8 +4,8 @@ import java.beans.BeanProperty;
 
 import org.apache.http.impl.client.*;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
-import org.springFramework.context.annotation.Bean;
-import org.springFramework.context.annotation.Configuration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class HttpClientConfig {
